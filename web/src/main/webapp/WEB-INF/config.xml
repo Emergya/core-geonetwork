@@ -137,7 +137,7 @@
 	-->
 
 	<resources>
-	  <resource enabled="true">
+	  <resource enabled="false">
 	    <name>main-db</name>
 	    <provider>jeeves.resources.dbms.ApacheDBCPool</provider>
 	    <config>
@@ -272,31 +272,31 @@
 		<!-- postgresql -->
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
-		<resource enabled="false">
-			<name>main-db</name>
-			<provider>jeeves.resources.dbms.ApacheDBCPool</provider>
-			<config>
-				<user>www-data</user>
-				<password>www-data</password>
-				<!-- we use org.postgis.DriverWrapper in place of
-				org.postgresql.Driver to support both postgresql and postgis -->
-				<driver>org.postgresql.Driver</driver>
-				<!--
-					jdbc:postgresql:database
-					jdbc:postgresql://host/database
-					jdbc:postgresql://host:port/database
-					
-					or if you are using postgis and want the spatial index loaded
-					into postgis
+        <resource enabled="true">
+            <name>main-db</name>
+            <provider>jeeves.resources.dbms.ApacheDBCPool</provider>
+            <config>
+                <user>gn_user</user>
+                <password>gn-data</password>
+                <!-- we use org.postgis.DriverWrapper in place of
+                org.postgresql.Driver to support both postgresql and postgis -->
+                <driver>org.postgresql.Driver</driver>
+                <!--
+                    jdbc:postgresql:database
+                    jdbc:postgresql://host/database
+                    jdbc:postgresql://host:port/database
 
-					jdbc:postgresql_postGIS://host:port/database
-					
-				-->
-				<url>jdbc:postgresql://localhost:5432/geonetwork</url>
-				<poolSize>10</poolSize>
-				<validationQuery>SELECT 1</validationQuery>
-			</config>
-		</resource>
+                    or if you are using postgis and want the spatial index loaded
+                    into postgis
+
+                    jdbc:postgresql_postGIS://host:port/database
+
+                -->
+                <url>jdbc:postgresql://localhost:5432/minen_gn_db</url>
+                <poolSize>10</poolSize>
+                <validationQuery>SELECT 1</validationQuery>
+            </config>
+        </resource>
 
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<!-- sqlserver 2008 -->
