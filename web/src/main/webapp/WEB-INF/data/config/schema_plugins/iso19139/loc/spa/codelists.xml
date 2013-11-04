@@ -17,7 +17,7 @@
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>revision</code>
-			<label>Revision</label>
+			<label>Revisión</label>
 			<description>Fecha que identifica cuando el producto fue examinado, mejorado o
 				modificado</description>
 		</entry>
@@ -27,22 +27,20 @@
 	<codelist name="gmd:CI_OnLineFunctionCode">
 		<entry>
 			<code>download</code>
-			<label>Download</label>
-			<description>Online instructions for transferring data from one storage device or system to
-				another</description>
+			<label>Descarga</label>
+			<description>Instrucciones en línea para transferir datos de un dispositivo de almacenamiento o sistema a otro</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>information</code>
-			<label>Information</label>
-			<description>Online information about the resource</description>
+			<label>Información</label>
+			<description>Información en línea sobre el recurso</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>offlineAccess</code>
-			<label>Offline access</label>
-			<description>Online instructions for requesting the resource from the
-			provider</description>
+			<label>Acceso off line</label>
+			<description>Instrucciones en línea para solicitar el recurso al </description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
@@ -1245,14 +1243,14 @@
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>historicalArchive</code>
-			<label>Historical archive</label>
-			<description>Data has been stored in an offline storage facility</description>
+			<label>Archivo histórico</label>
+			<description>El dato ha sido almacenado en un medio de almacenamiento fuera de línea</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>obsolete</code>
-			<label>Obsolete</label>
-			<description>Data is no longer relevant</description>
+			<label>Obsoleto</label>
+			<description>El dato ya no es relevante</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
@@ -1263,21 +1261,20 @@
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>planned</code>
-			<label>Planned</label>
-			<description>Fixed date has been established upon or by which the data will be created or
-				updated</description>
+			<label>Planificado</label>
+			<description>Una fecha fija ha sido establecida hasta o en la cual el dato será creado o actualizado</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>required</code>
-			<label>Required</label>
-			<description>Data needs to be generated or updated</description>
+			<label>Requerido</label>
+			<description>El dato necesita ser generado o actualizado</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>underDevelopment</code>
-			<label>Under development</label>
-			<description>Data is currently in the process of being created</description>
+			<label>En desarrollo</label>
+			<description>El dato está actualmente en proceso de ser creado</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 	</codelist>
@@ -1294,45 +1291,45 @@
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>patent</code>
-			<label>Patent</label>
+			<label>Patente</label>
 			<description>Government has granted exclusive right to make, sell, use or license an
 				invention or discovery</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>patentPending</code>
-			<label>Patent pending</label>
+			<label>Pendiente de patente</label>
 			<description>Produced or sold information awaiting a patent</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>trademark</code>
-			<label>Trademark</label>
+			<label>Marca</label>
 			<description>A name, symbol, or other device identifying a product, officially registered
 				and legally restricted to the use of the owner or manufacturer</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>license</code>
-			<label>License</label>
+			<label>Licencia</label>
 			<description>Formal permission to do something</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>intellectualPropertyRights</code>
-			<label>Intellectual property rights</label>
+			<label>Derechos de propiedad intelectual</label>
 			<description>Rights to financial benefit from and control of distribution of non-tangible
 				property that is a result of creativity</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>restricted</code>
-			<label>Restricted</label>
+			<label>Restringido</label>
 			<description>Withheld from general circulation or disclosure</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
-			<code>otherRestrictions</code>
+			<code>otherRestictions</code>
 			<label>Otras restricciones</label>
 			<description>Limitaciones no listadas</description>
 		</entry>
@@ -1348,19 +1345,19 @@
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>attributeType</code>
-			<label>Attribute type</label>
+			<label>Tipo de atributo</label>
 			<description>Information applies to the characteristic of a feature</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>collectionHardware</code>
-			<label>Collection hardware</label>
+			<label>Harware de recolección</label>
 			<description>Information applies to the collection hardware class</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>collectionSession</code>
-			<label>Collection session</label>
+			<label>Sesión de recolección</label>
 			<description>Information applies to the collection session</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -1378,37 +1375,37 @@
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>nonGeographicDataset</code>
-			<label>Non geographic dataset</label>
+			<label>Conjunto de datos no geográfico</label>
 			<description>Information applies to non-geographic data</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>dimensionGroup</code>
-			<label>Dimension group</label>
+			<label>Grupo de dimensiones</label>
 			<description>Information applies to a dimension group</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>feature</code>
-			<label>Feature</label>
+			<label>Elemento</label>
 			<description>Information applies to a feature</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>featureType</code>
-			<label>Feature type</label>
+			<label>Tipo de elemento</label>
 			<description>Information applies to a feature type</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>propertyType</code>
-			<label>Property type</label>
+			<label>Tipo de propiedad</label>
 			<description>Information applies to a property type</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>fieldSession</code>
-			<label>Field session</label>
+			<label>Sesión de campo</label>
 			<description>Information applies to a field session</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -1420,7 +1417,7 @@
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>service</code>
-			<label>Service</label>
+			<label>Servicio</label>
 			<description>Information applies to a capability which a service provider entity makes
 				available to a service user entity through a set of interfaces that define a behaviour,
 				such as a use case</description>
@@ -1428,7 +1425,7 @@
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>model</code>
-			<label>Model</label>
+			<label>Modelo</label>
 			<description>Information applies to a copy or imitation of an existing or hypothetical
 				object</description>
 		</entry>
@@ -1443,17 +1440,17 @@
 		<!-- Used for facet translation only and not displayed in editor -->
 		<entry hideInEditMode="true">
 			<code>map</code>
-			<label>Map</label>
+			<label>Mapa</label>
 			<description></description>
 		</entry>
 		<entry hideInEditMode="true">
 			<code>staticMap</code>
-			<label>Static map</label>
+			<label>Mapa estático</label>
 			<description></description>
 		</entry>
 		<entry hideInEditMode="true">
 			<code>interactiveMap</code>
-			<label>Interactive map</label>
+			<label>Mapa interactivo</label>
 			<description></description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -1505,17 +1502,14 @@
 	<codelist name="gmd:MD_TopicCategoryCode">
 		<entry>
 			<code>farming</code>
-			<label>Farming</label>
-			<description>Rearing of animals and/or cultivation of plants. Examples: agriculture,
-				irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and
-				livestock</description>
+			<label>Agropecuarias</label>
+			<description>Cría y de animales y/o cultivo de plantas. Ejemplos: agricultura, irrigación, aquacultura, plantaciones, pastoreo, plagas y enfermedades que afectan a cultivos o ganado</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>biota</code>
 			<label>Biota</label>
-			<description>Flora and/or fauna in natural environment. Examples: wildlife, vegetation,
-				biological sciences, ecology, wilderness, sealife, wetlands, habitat</description>
+			<description>Flora y fauna en un entorno natural. Ejemplos: vida salvaje, vegetación, biología, ecología, área salvaje, vida marina, humedales, hábitat</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
@@ -1527,50 +1521,38 @@
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>climatologyMeteorologyAtmosphere</code>
-			<label>Climatology, meteorology, atmosphere</label>
-			<description>Processes and phenomena of the atmosphere. Examples: cloud cover, weather,
-				climate, atmospheric conditions, climate change, precipitation</description>
+			<label>Climatología, meteorología, atmósfera</label>
+			<description>Procesos y fenomenos de la atmósfera. Ejemplo: cobertura de nubes, tiempo, clima, condiciones atmosféricas, cambio climático, precipitaciones</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>economy</code>
-			<label>Economy</label>
-			<description>Economic activities, conditions and employment. Examples: production, labour,
-				revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or
-				subsistence hunting, exploration and exploitation of resources such as minerals, oil and
-				gas</description>
+			<label>Economía</label>
+			<description>Actividades económicas, condiciones y empleo. Ejemplos: producción, trabajo, ingresos, comercio, industria, turismo y ecoturismo, silvicultura, pesquerías, caza comercial o de subsistencía, exploración y explotación de recursos tipo minerales, petróleo y gas</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>elevation</code>
-			<label>Elevation</label>
-			<description>Height above or below sea level. Examples: altitude, bathymetry, digital
-				elevation models, slope, derived products</description>
+			<label>Elevación</label>
+			<description>Altura sobre o bajo el nivel del mar. Ejemplos: altitud, batimetría, modelos digitales de elevación, pendiente, productos derivados</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>environment</code>
-			<label>Environment</label>
-			<description>Environmental resources, protection and conservation. Examples: environmental
-				pollution, waste storage and treatment, environmental impact assessment, monitoring
-				environmental risk, nature reserves, landscape</description>
+			<label>Medio ambiente</label>
+			<description>Recursos medioambientales, protección y conservación. Ejemplos: contaminación ambiental, almacenaje y tratamiento de basuras, evaluación de impacto ambiental, monitorización de riesgos ambientales, reservas naturales, paisaje</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>geoscientificInformation</code>
-			<label>Geoscientific information</label>
-			<description>Information pertaining to earth sciences. Examples: geophysical features and
-				processes, geology, minerals, sciences dealing with the composition, structure and
-				origin of the earth s rocks, risks of earthquakes, volcanic activity, landslides,
-				gravity information, soils, permafrost, hydrogeology, erosion</description>
+			<label>Información geocientífica</label>
+			<description>Información pertinente a ciencias relativas a la Tierra. Ejemplos: elementos y procesos geofísicos, geología, minerales, ciencias que tratan la composición, estructura y origen de las rocas terrestres, riesgo de terremotos, actividad volcánica, corrimientos de tierra, información gravitatoria, suelos, permafrost, hidrogeología, erosión</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>health</code>
-			<label>Health</label>
-			<description>Health, health services, human ecology, and safety. Examples: disease and
-				illness, factors affecting health, hygiene, substance abuse, mental and physical health,
-				health services</description>
+			<label>Salud</label>
+			<description>Salud, servicios sanitarios, ecología humana y seguridad. Ejemplos: enfermedades y dolencias, factores que afectan la salud, higiene, abuso de sustancias, salud mental y física, servicios sanitarios</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
@@ -1582,72 +1564,56 @@
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>intelligenceMilitary</code>
-			<label>Intelligence military</label>
-			<description>Military bases, structures, activities. Examples: barracks, training grounds,
-				military transportation, information collection</description>
+			<label>Inteligencia militar</label>
+			<description>Bases, estructuras y actividades militares. Ejemplos: barracones, campos de entrenamiento, transportes militares, recolección de información</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>inlandWaters</code>
-			<label>Inland waters</label>
-			<description>Inland water features, drainage systems and their characteristics. Examples:
-				rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water
-				quality, hydrographic charts</description>
+			<label>Aguas interiores</label>
+			<description>Aguas interiores, sistemas de drenaje y sus características. Ejemplos: ríos y glaciares, lagos de sal, planes de utilización de aguas, presas, corrientes, inundaciones, calidad del agua, cartas hidrográficas</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>location</code>
-			<label>Location</label>
-			<description>Positional information and services. Examples: addresses, geodetic networks,
-				control points, postal zones and services, place names</description>
+			<label>Localización</label>
+			<description>Información y servicios posicionales. Ejemplos: direcciones, redes geodéticas, puntos de control, zonas y servicios postales, nombres de lugar</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>oceans</code>
-			<label>Oceans</label>
-			<description>Features and characteristics of salt water bodies (excluding inland waters).
-				Examples: tides, tidal waves, coastal information, reefs</description>
+			<label>Océanos</label>
+			<description>Elementos y características de cuerpos de agua salada (excluyndo aguas interiores). Ejemplos: mareas, maremotos, información de costas, arrecifes</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>planningCadastre</code>
-			<label>Planning cadastre</label>
-			<description>Information used for appropriate actions for future use of the land. Examples:
-				land use maps, zoning maps, cadastral surveys, land ownership</description>
+			<label>Planificación catastral</label>
+			<description>Información usada para acciones apropiadas para el uso futuro del suelo. Ejemplos: mapas de uso de suelo, mapas de zonificación, encuestas catastrales, propiedad de la tierra</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>society</code>
-			<label>Society</label>
-			<description>Characteristics of society and cultures. Examples: settlements, anthropology,
-				archaeology, education, traditional beliefs, manners and customs, demographic data,
-				recreational areas and activities, social impact assessments, crime and justice, census
-				information</description>
+			<label>Sociedad</label>
+			<description>Características de la sociedad y culturas. Ejemplos: asentamientos, antropología, arqueología, educación, creencias tradicionales, usos y costumbres, datos demográficos, áreas y actividades recreativas, evaluaciones de impacto social, crimen y justicia, información censal</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>structure</code>
-			<label>Structure</label>
-			<description>Man-made construction. Examples: buildings, museums, churches, factories,
-				housing, monuments, shops, towers</description>
+			<label>Estructuras</label>
+			<description>Construcciones hechas por el hombre. Ejemplos: edificios, museos, iglesias, fábricas, alojamientos, monumentos, tiendas, torres</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>transportation</code>
-			<label>Transportation</label>
-			<description>Means and aids for conveying persons and/or goods. Examples: roads,
-				airports/airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel
-				location, aeronautical charts, railways</description>
+			<label>Transportes</label>
+			<description>Medios y ayudas para el traslado de personas y/o bienes. Ejemplos: carreteras, aeropuertos/pistas de aterrizaje, rutas de navegación, túneles, cartas naúticas, vehiculo o nave</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<entry>
 			<code>utilitiesCommunication</code>
-			<label>Utilities communication</label>
-			<description>Energy, water and waste systems and communications infrastructure and
-				services. Examples: hydroelectricity, geothermal, solar and nuclear sources of energy,
-				water purification and distribution, sewage collection and disposal, electricity and gas
-				distribution, data communication, telecommunication, radio, communication
-			networks</description>
+			<label>Servicios públicos y comunicación</label>
+			<description>Sistemas de energía, aguas y basura, e infrastructura y servicios de comunicaciones. Ejemplos: fuentes de energía hidroeléctrica, geotermal solar o nuclear, purificación y distribución de aguas, acumulación y eliminación de aguas residuales, distribución de electricidad y gas, comunicación de datos, telecomunicación, radio, redes de comunicación</description>
 		</entry>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 	</codelist>
@@ -1678,7 +1644,7 @@
 		<entry>
 			<code>fullPlanarGraph</code>
 			<label>Full planar graph</label>
-			<description>2-dimensional topological complex that is planar. (A 2-dimensional topological
+			<description>2-dimensional topoloCgical complex that is planar. (A 2-dimensional topological
 				complex is commonly called full topology in a cartographic 2D
 			environment.)</description>
 		</entry>
