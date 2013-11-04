@@ -33,7 +33,7 @@
 	<!-- ==================================================== -->
 	<element name="gmd:axisDimensionProperties">
 		<label>Propiedades de los ejes de dimensión</label>
-		<description>Pripiedades de los ejes de dimensión</description>
+		<description>Propiedades de los ejes de dimensión</description>
 	</element>
 	<!-- ==================================================== -->
 	<element name="gmd:characterEncoding">
@@ -1433,7 +1433,7 @@
 	</element>
 	<!-- ==================================================== -->
 	<element name="gmd:MD_Keywords">
-		<label>Keywords</label>
+		<label>Palabras clave</label>
 		<description>Keywords, their type and reference source</description>
 	</element>
 	<!-- ==================================================== -->
